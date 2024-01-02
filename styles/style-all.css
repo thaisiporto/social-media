@@ -88,8 +88,31 @@ section#lista ul li i {
 }
 
 section#lista img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.137);
+    border-right: 3px solid #666b74;
     transform: translate(-7px, 0);
     box-shadow: 3px 3px 5px #0000008c;
     transition: transform 0.3s;
+}
+
+@media screen and (max-width:550px) {
+
+    section#phone {
+        margin-top: 10px;
+    }
+
+    section#lista ul li {
+        display: inline-block;
+    }
+
+    section#lista {
+        float:none;
+        padding-bottom: 0;
+    }
+
+    section#lista img:hover {
+        transform: translate(0, -5px);
+        border-bottom: 3px solid #666b74;
+        border-right: none;
+    }
+
 }
