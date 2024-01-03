@@ -39,7 +39,7 @@ section#lista ul li img {
     box-shadow: none;
 }
 
-a#home {
+a#home, a#sbr {
     display: none;
 }
 

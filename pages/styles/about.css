@@ -9,16 +9,20 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+
+
 body, html {
     background-color: #3b3e44;
-    padding: 0 10px;
 }
 
 main {
 
-    max-width: 600px;
+    max-width: 100%;
     padding: 20px;
-    margin: 10px auto;
 
     background-color: white;
     border-top: 10px solid #DE5047;
@@ -51,44 +55,49 @@ main p a {
     font-weight: bold;
 }
 
-a:hover {
+main a:hover {
     text-decoration: underline;
 }
 
-img {
+main img {
     display: block;
     margin: 10px auto;
     min-width: 80px;
     max-width: 450px;
 }
 
-figcaption {
+main figcaption {
     text-align: center;
     font-size: 0.7em;
     color: #181818;
 }
 
-figcaption a {
+main figcaption a {
     display: inline;
     color: #797979;
     text-decoration: none;
     text-align: center;
 }
 
-header p, footer p {
+/* LINKS */
+
+footer p#links {
     text-align: center;
-    padding:20px;
-    font-family: 'Akshar', sans-serif;
+    padding: 10px;
+    background-color:  #3b3e44;
 }
 
-header a, footer a {
-    color: #68A8B0;
-    text-decoration: none;
-    font-weight: bold;
+footer p#links a {
+    background-color: white;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0 1px;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
 }
 
-header i, footer i {
-    font-size: 1.2em;
-    vertical-align: -8px;
-    cursor: pointer;
+footer p#links img {
+    height: 40px;
+    border-radius: 4px;
 }

@@ -84,21 +84,6 @@ section#lista img:hover {
 
 /* FOOTER */
 footer {
-    padding: 20px 15px 40px 15px;
-    background-color: #DE5047;
-    border-top: 5px solid #454950;
-}
-
-footer p {
-    text-align: center;
-    font-size: 0.9em;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    height: 60px;
+    background-color: #454950;
 }
