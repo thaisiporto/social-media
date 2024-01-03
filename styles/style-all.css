@@ -1,9 +1,10 @@
 @charset "UTF-*";
 
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body, html {
@@ -17,7 +18,8 @@ header {
     border-top: 10px solid #DE5047;
 }
 
-header p {
+header h1 {
+    font-family: 'Akshar', sans-serif;
     font-size: 28px;
     text-align: center;
     font-weight: 900;
@@ -27,6 +29,10 @@ header p {
 header a {
     color: #68A8B0;
     text-decoration: none;
+}
+
+header a:hover::before {
+    content: '# ';
 }
 
 main {
@@ -70,21 +76,13 @@ section#lista ul li img {
     box-sizing: border-box;
 }
 
-section#lista ul li i {
-    font-size: 30px;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    margin: 5px;
-    box-shadow: 1px 1px 5px #000;
-    box-sizing: border-box;
-}
-
 section#lista img:hover {
     box-shadow: 3px 3px 5px #0000008c;
     transition: transform 0.3s;
 }
 
+
+/* FOOTER */
 footer {
     padding: 20px 15px 40px 15px;
     background-color: #DE5047;
@@ -97,7 +95,7 @@ footer p {
 }
 
 footer a {
-    color: #252527;
+    color: white;
     text-decoration: none;
 }
 

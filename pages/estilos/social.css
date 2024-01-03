@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +11,11 @@
     width: 0;
 }
 
-img {
+img#back {
     width: 100vw;
 }
-a {
+
+a#go {
    display: block;
    background-color: #DE5047;
    color: white;
@@ -23,6 +26,29 @@ a {
    text-decoration: none;
 }
 
-a:hover {
+a#go:hover {
     background-color: #bd3f36;
+}
+
+/* LINKS */
+
+p#links {
+    text-align: center;
+    padding: 10px;
+    background-color:  #3b3e44;
+}
+
+p#links a {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 0 1px;
+}
+
+p#links img {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
 }

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: white url('../../images/home.jpg') no-repeat top center /cover;
+}
+
+/* LINKS */
+span {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+
+    position: absolute;
+    top: 350px;
+}
+
+img {
+    border-radius: 4px;
+}
+
+span#be {
+    left: 10px;
+}
+
+span#gthb {
+    left: 65px;
+}
+
+span#home {
+    left: 120px;
+}
+
+span#rsm {
+    left: 175px;
+}
+
+span#ig {
+    left: 225px;
+}
+
+/* MÚSICA */
+div#music {
+    width: 255px;
+    position: absolute;
+    left: 10px;
+    top: 215px;
+}
+
+iframe {
+    border-radius:10px;
+    background-color: #559097;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 0.7em;
+    color: white;
+    text-align: center;
+    background-color: #559097;
+}
+iframe a {
+    color: white;
+    font-weight: 600;
+}
