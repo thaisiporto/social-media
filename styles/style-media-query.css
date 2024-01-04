@@ -43,3 +43,10 @@
     }
 
 }
+
+@media screen and (max-width:415px) {
+    section#lista ul li img {
+        width: 40px;
+        margin: 2px;
+    }
+}
